@@ -1,0 +1,58 @@
+button {
+  color: whitesmoke;
+  background-color: crimson;
+}
+
+.flex_container {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  background-color: coral;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.pic1 {
+  display: flex;
+  align-self: flex-end;
+}
+
+.pic2 {
+  display: flex;
+}  
+
+.pic3 {
+  display: flex;
+  align-self: center;
+}
+
+.pic4 {
+  display: flex;
+}
+
+.pic5 {
+  display: flex;
+  align-self: flex-end;
+}
+
+.message {
+  margin-left: 1cm;
+  margin-top: 1cm;
+}
+
+@media (max-width: 800px) {
+  .flex_container {
+    height: 300px;
+    width: 300px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}

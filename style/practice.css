@@ -1,0 +1,103 @@
+body{
+  background-image: url("../images/Background1.jpg");
+  background-size: cover;
+  color: goldenrod;
+  font-family: Courgette, cursive;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section1 {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  font-family: Volkhov, serif;
+}
+
+a {
+  color: grey;
+}
+
+button {
+  background-color: coral;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 10%;
+  padding-right: 1cm;
+  padding-left: 1cm;
+}
+    
+button:hover {
+  background-color: brown;
+  color: chartreuse;
+}
+
+h1 {
+  font-size: 50;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 30;
+}
+
+h3 {
+  padding-top: 1cm;
+}
+
+q {
+  font-family: Indie Flower, cursive;
+}
+
+.tolkien {
+  font-family: Courgette, cursive;
+  text-align: right;
+  margin-right: 40%;
+}
+
+.ipsumtext {
+  color: gainsboro;
+  text-align: justify;
+  margin-right: 40%;
+}
+
+.description {
+  color: gainsboro;
+  text-align: justify;
+  margin-right: 40%;
+}
+
+.footer {
+  color: gray;
+}
+
+.cover {
+opacity: 0.5;
+filter: alpha(opacity=50);
+border-width: 2px;
+border-style: solid;
+border-color: cornflowerblue; opacity: 0.5;
+border-radius: 5%;
+margin-top: 1.5cm;
+}
+
+.cover:hover {
+opacity: 1;
+filter: alpha(opacity=50);
+}
+
+.characterpic {
+  opacity: 0.5;
+  margin-left: 1cm;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  float: right;
+}
+
+.characterpic:hover {
+  opacity: 1;
+  filter: alpha(opacity=50);
+  width: 30%;
+}
+

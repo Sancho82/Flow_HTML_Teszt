@@ -1,0 +1,366 @@
+h1 {
+  font-size: 2cm;
+  font-style: oblique;
+  color: goldenrod;
+  margin-left: 1cm;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-style: none;
+  width: 35%;
+  margin: 1cm;
+}
+
+td {
+  border: 1px solid black;
+  height: 2cm;
+}
+
+.row1cell1 {
+  background-color: darksalmon;
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-top-style: dotted;
+  border-bottom-style: none;
+}
+
+.row1cell2 {
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: solid;
+  border-bottom-style: none;
+}
+
+.row1cell3 {
+  background-color: greenyellow;
+  border-right-style: none;
+  border-left-style: dashed;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+}
+
+.row1cell4 {
+  background-color: greenyellow;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+}
+
+.row1cell5 {
+  background-color: greenyellow;
+  border-right-style: dashed;
+  border-left-style: none;
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+}
+
+.row2cell1 {
+  background-color: darksalmon;
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-bottom-style: dotted;
+  border-top-style: none;
+}
+
+.row2cell2 {
+  border-style: none;
+}
+
+.row2cell3 {
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+}
+
+.row2cell4 {
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+}
+
+.row2cell5 {
+  border-right-style: solid;
+  border-left-style: none;
+  border-top-style: dashed;
+  border-bottom-style: dotted;
+}
+
+.row3cell1 {
+  border-right-style: none;
+  border-top-style: dotted;
+  border-bottom-style: dashed;
+}
+
+.row3cell2 {
+  border-right-style: ridge;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: dashed;
+}
+
+.row3cell3 {
+  background-color: crimson;
+  border-right-style: none;
+  border-left-style: dotted;
+  border-top-style: dotted;
+  border-bottom-style: none;
+}
+
+.row3cell4 {
+  background-color: crimson;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: dotted;
+  border-bottom-style: none;
+}
+
+.row3cell5 {
+  background-color: crimson;
+  border-right-style: dotted;
+  border-left-style: none;
+  border-top-style: dotted;
+  border-bottom-style: none;
+}
+
+.row4cell1 {
+  background-color: darkkhaki;
+  border-right-style: none;
+  border-left-style: dashed;
+  border-top-style: dashed;
+  border-bottom-style: none;
+}
+
+.row4cell2 {
+  background-color: darkkhaki;
+  border-right-style: dashed;
+  border-left-style: none;
+  border-top-style: dashed;
+  border-bottom-style: none;
+}
+
+.row4cell3 {
+  background-color: crimson;
+  border-right-style: none;
+  border-left-style: dotted;
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+.row4cell4 {
+  background-color: crimson;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+.row4cell5 {
+  background-color: crimson;
+  border-right-style: dotted;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+.row5cell1 {
+  background-color: darkkhaki;
+  border-right-style: none;
+  border-left-style: dashed;
+  border-top-style: none;
+  border-bottom-style: dashed;
+}
+
+.row5cell2 {
+  background-color: darkkhaki;
+  border-right-style: dashed;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: dashed;
+}
+
+.row5cell3 {
+  background-color: crimson;
+  border-right-style: none;
+  border-left-style: dotted;
+  border-top-style: none;
+  border-bottom-style: dotted;
+}
+
+.row5cell4 {
+  background-color: crimson;
+  border-right-style: none;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: dotted;
+
+}
+
+.row5cell5 {
+  background-color: crimson;
+  border-right-style: dotted;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: dotted;
+}
+
+.table2 {
+  width: 35%;
+  height: 10 cm;
+  margin-top: 2cm;
+  margin-left: 1cm;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-auto-rows: 2cm;
+  grid-auto-columns: 2cm;
+  grid-gap: 0px;
+  background-color: blue;
+}
+
+.item1 {
+  height: 2cm;
+  background-color: darksalmon;
+}
+
+.item2 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item3 {
+  height: 2cm;
+  background-color: greenyellow;
+}
+
+.item4 {
+  height: 2cm;
+  background-color: greenyellow;
+}
+
+.item5 {
+  height: 2cm;
+  background-color: greenyellow;
+}
+
+.item6 {
+  height: 2cm;
+  background-color: darksalmon;
+}
+
+.item7 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item8 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item9 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item10 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item11 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item12 {
+  height: 2cm;
+  background-color: white;
+}
+
+.item13 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item14 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item15 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item16 {
+  height: 2cm;
+  background-color: darkkhaki;
+}
+
+.item17 {
+  height: 2cm;
+  background-color: darkkhaki;
+}
+
+.item18 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item19 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item20 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item21 {
+  height: 2cm;
+  background-color: darkkhaki;
+}
+
+.item22 {
+  height: 2cm;
+  background-color: darkkhaki;
+}
+
+.item23 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item24 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.item25 {
+  height: 2cm;
+  background-color: crimson;
+}
+
+.uzenet {
+  margin-left: 1cm;
+}
+
+.uzenet {
+  margin-top: 1cm;
+}
+
+.link2 {
+  margin-top: 1cm;
+  margin-left: 1cm;
+}
+
+button {
+  color: whitesmoke;
+  background-color: crimson;
+}
